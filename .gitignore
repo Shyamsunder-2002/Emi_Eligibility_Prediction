@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# MLflow
+mlruns/
+
+# Documentation
+DEPLOYMENT.md
+STREAMLIT_DEPLOYMENT.md
+EMIPredict AI - Intelligent Financial Risk Assessment Platform.md
+
+# Data
+data/raw/
+data/processed/*.csv
+!data/processed/emi_dataset_cleaned.parquet
+
+# Large files
+*.csv
+*.pkl
+*.joblib
+!models/*.joblib
+!models/preprocessors/*.joblib
+!models/*.pkl
+
+# IDE
+.vscode/
+.idea/
